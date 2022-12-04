@@ -3,8 +3,8 @@
 #include <stdlib.h>
 #include <time.h>
 
-/*1. 4 öğrencinin 3 adet notunu (mat, fizik, kimya) giriniz. 
-Ortalamasını da matris içinde hesaplayınız.*/
+/*1. 4 Ã¶ÄŸrencinin 3 adet notunu (mat, fizik, kimya) giriniz. 
+OrtalamasÄ±nÄ± da matris iÃ§inde hesaplayÄ±nÄ±z.*/
 int main()
 {
 	float ortalama,notlar[4][3];
