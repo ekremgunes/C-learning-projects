@@ -79,12 +79,12 @@ int main()
 			{
 				printf("\n    LOSE :(  \n");
 				printf("Your point : %d and Computer point : %d \n",gamer,computer);
-				printf("\n›f you wanna play again click to 1 ,if not click to 2...\n");
+				printf("\n√ùf you wanna play again click to 1 ,if not click to 2...\n");
 				scanf("%d",&results);
 				if(results==1)
 				{
 					printf("Game loading again..\n..\n");
-					goto again;//ba˛a dˆnmesi iÁin
+					goto again;//ba√æa d√∂nmesi i√ßin
 				}
 				if(results==2)
 				{
@@ -94,7 +94,7 @@ int main()
 			}
 			else if(gamer>computer)
 			{
-				printf("\n*** W›NNER!! ***\n");
+				printf("\n*** W√ùNNER!! ***\n");
 				printf("Your point : %d and Computer point : %d \n",gamer,computer);
 				break;
 			}
