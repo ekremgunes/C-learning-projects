@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/*5. 0-10 arasý rastgele sayýlardan oluþturulmuþ 6x6 bir matris içerisinde (iki köþegenden birinde)
- bulunan sayýlarýn toplamýný kullanýcýnýn isteðine göre bulan program kodunu yazýnýz.*/
+/*5. 0-10 arasi rastgele sayilardan olusturulmus 6x6 bir matris içerisinde (iki kösegenden birinde)
+ bulunan sayilarin toplamini kullanicinin istegine göre bulan program kodunu yaz.*/
 int main(){
 	srand(time(NULL));
 	int matris[6][6];
