@@ -2,8 +2,6 @@
 #include <stdlib.h>
 #include <conio.h>
 
-/*4. 1’den 10’a kadar olan sayıların nxn, n!, nn değerlerini matrise  yazan program kodunu yazınız.*/
-
 int main() {
 	int i,j;
 	int matris[10][4];
