@@ -3,8 +3,6 @@
 #include <stdlib.h>
 #include <time.h>
 
-//Ekrem Gunes' basic game project :
- 
 int main()
 {
 	again://for users wanna play again.I used the 'goto'.
@@ -39,17 +37,17 @@ int main()
 		{
 			case 1:
 				printf("you:  ROCK - ");
-				if(rakip==3)
+				if(rival==3)
 				gamer++;
 				break;
 			case 2:
 				printf("you:  PAPER - ");
-				if(rakip==1)
+				if(rival==1)
 				gamer++;
 				break;
 			case 3:
 				printf("you:  CUT - ");
-				if(rakip==2)
+				if(rival==2)
 				gamer++;
 				break;
 		}
@@ -84,7 +82,7 @@ int main()
 				if(results==1)
 				{
 					printf("Game loading again..\n..\n");
-					goto again;//baþa dönmesi için
+					goto again;//new game
 				}
 				if(results==2)
 				{
@@ -109,5 +107,5 @@ int main()
 		i++;
 	}
 	
-	return 0;
+	
 }
